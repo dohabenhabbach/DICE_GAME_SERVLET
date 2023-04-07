@@ -1,0 +1,31 @@
+body {
+    background-color: #FFE4E1;
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    color: #2b3e51;
+}
+
+input[type="submit"]:hover {
+    background-color: #329dd5;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffb3b3;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666;
+}
+footer {
+    background-color: #FFE4E1;
+    padding: 100px;
+    text-align: center;
+
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    <filter>
+        <filter-name>security</filter-name>
+        <filter-class>com.example.solution.web.filters.SecurityFilter</filter-class>
+    </filter>
+    <filter>
+        <filter-name>exceptionFilter</filter-name>
+        <filter-class>com.example.solution.web.filters.ExceptionFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>exceptionFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>security</filter-name>
+        <url-pattern>/back/*</url-pattern>
+    </filter-mapping>
+    <welcome-file-list>
+        <welcome-file>/WEB-INF/vues/pages/loginForm.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
