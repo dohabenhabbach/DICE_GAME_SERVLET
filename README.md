@@ -29,7 +29,7 @@ Overall, the game home interface provides players with easy access to important 
 The score interface is a web-based interface that displays the scores of players who have played a dice game. The interface typically includes a table that shows the name of each player and their corresponding score.<br>
 The table is organized into columns, with one column for the player's name and one column for their score. Each row in the table represents one player and their score.<br>
 <br><img width="917" alt="image" src="https://user-images.githubusercontent.com/108173949/230726076-d430abe5-d533-48b7-9f06-cac11d752677.png">
-##Tools used
+<h1>Tools used</h1><br>
 -IDE: <br> 
 IntelliJ <br> 
 -Package: <br> 
