@@ -33,7 +33,7 @@ The table is organized into columns, with one column for the player's name and o
 - IDE: <br> 
 IntelliJ <br> 
 - Package: <br> 
-jakarta.servlet <br> 
+jakarta.servlet <br>  
 - Server: <br> 
 Tomcat 10.1
 
