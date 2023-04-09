@@ -25,25 +25,29 @@
 <li>Once the user has completed both fields, they can submit the login form to access their account. The form will then check whether the entered login and password exist or not. If the entered login credentials exist, the user will be redirected to their account dashboard. If the entered login credentials do not exist or are incorrect, the user will receive an error message and be prompted to try again.</li>
 <br><img width="916" alt="image" src="https://user-images.githubusercontent.com/108173949/230725985-f38e15e3-da0d-4ae9-92be-6848b00103f1.png">
 <h3> Game home </h3> <br>
-The game home interface is a web-based interface that allows players to access a dice game. The interface typically includes options for Deconnexion, Reinitialization, Best Score, and an input for the number of dice to roll.<br>
-The Deconnexion option allows the player to log out of their account and end their current game session. This option is typically located in the upper right corner of the interface and provides a convenient way to exit the game.<br>
-The Reinitialization option allows the player to reset the game and start a new round. This option is typically located in the center of the interface and is labeled as "Reinitialization" .<br>
-The Best Score option allows the player to view the best score of all players who have played the game. This option is typically located in the upper left corner of the interface and is labeled as "Best Score" .<br>
-The input for the number of dice to roll allows the player to choose how many dice they want to roll during their turn. This input is typically located in the center of the interface and is labeled as "Number of Dice" . The player can enter any number between 1 and the maximum number of dice allowed in the game.<br>
-Overall, the game home interface provides players with easy access to important game options and information. The Deconnexion and Reinitialization options allow players to control their game session, while the Best Score option provides motivation to achieve high scores. The input for the number of dice to roll allows players to customize their game experience and add an extra layer of strategy to the game.<br>
+  <ul>
+<li>The game home interface is a web-based interface that allows players to access a dice game.</li> 
+  <li>The interface typically includes options for Deconnexion, Reinitialization, Best Score, and an input for the number of dice to roll.</li>
+<li>The Deconnexion option allows the player to log out of their account and end their current game session. This option is typically located in the upper right corner of the interface and provides a convenient way to exit the game.</li>
+<li>The Reinitialization option allows the player to reset the game and start a new round. This option is typically located in the center of the interface and is labeled as "Reinitialization" .</li>
+<li>The Best Score option allows the player to view the best score of all players who have played the game. This option is typically located in the upper left corner of the interface and is labeled as "Best Score" .</li>
+<li>The input for the number of dice to roll allows the player to choose how many dice they want to roll during their turn. This input is typically located in the center of the interface and is labeled as "Number of Dice" . The player can enter any number between 1 and the maximum number of dice allowed in the game.</li>
+<li>Overall, the game home interface provides players with easy access to important game options and information. The Deconnexion and Reinitialization options allow players to control their game session, while the Best Score option provides motivation to achieve high scores. The input for the number of dice to roll allows players to customize their game experience and add an extra layer of strategy to the game.</li>
 <br><img width="907" alt="image" src="https://user-images.githubusercontent.com/108173949/230725968-6dc22b89-9ba1-4da4-8a21-8181780acf72.png">
 <h3> Score </h3> <br>
-The score interface is a web-based interface that displays the scores of players who have played a dice game. The interface typically includes a table that shows the name of each player and their corresponding score.<br>
-The table is organized into columns, with one column for the player's name and one column for their score. Each row in the table represents one player and their score.<br>
+<li>The score interface is a web-based interface that displays the scores of players who have played a dice game.</li>
+  <li>The interface typically includes a table that shows the name of each player and their corresponding score.</li>
+<li>The table is organized into columns, with one column for the player's name and one column for their score. Each row in the table represents one player and their score.</li>
+    </ul>
 <br><img width="917" alt="image" src="https://user-images.githubusercontent.com/108173949/230726076-d430abe5-d533-48b7-9f06-cac11d752677.png">
 <h1>Tools used</h1><br>
 <ul>
   <li>IDE:</li>
-    IntelliJ <br> 
+    <li>IntelliJ </li> 
    <li>Package:</li>
-    jakarta.servlet <br> 
+    <li>jakarta.servlet </li> 
     <li>Server:</li>
-    Tomcat 10.1
+  <li>Tomcat 10.1</li>
   </ul>
 
 
