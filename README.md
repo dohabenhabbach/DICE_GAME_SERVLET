@@ -43,11 +43,11 @@
 <h1>Tools used</h1><br>
 <ul>
   <li>IDE:</li>
-    <li>IntelliJ </li> 
+    IntelliJ <br> 
    <li>Package:</li>
-    <li>jakarta.servlet </li> 
+    jakarta.servlet <br> 
     <li>Server:</li>
-  <li>Tomcat 10.1</li>
+  Tomcat 10.1<br>
   </ul>
 
 
