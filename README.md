@@ -2,11 +2,13 @@
 <h1 style="color:blue"> Description </h1><br>
 <h4>Developed using Java servlets, the Dice Game is a web-based game that challenges players to test their luck and strategic skills. Players roll virtual dice and accumulate points based on their rolls. The game is designed with a user-friendly interface, allowing players to easily navigate and enjoy the game.</h4><br>
 <h1 style="color:blue"> Dice Game Rules </h1><br>
-Players will roll 3 dice, numbered 1 to 6, one at a time in any order. 
-A player cannot roll the same die more than once during the game, or the game will end and the player will receive a score of -1. <br>
-If the result obtained for die number 1 is strictly lower than the result obtained for die number 2 and the result obtained for die number 2 is strictly lower than the result obtained for die number 3, then the player receives a score equal to the sum of the results obtained for the 3 dices. <br>
-If the result obtained for die number 1 is strictly higher than the result obtained for die number 2 and the result obtained for die number 2 is strictly higher than the result obtained for die number 3 then the player receives a score equal to the product results obtained for the 3 dices Otherwise it receives a zero score . <br>
-The application must stop the game once we can conclude about the score, for example if we get 5 for die number 1 and 6 for die number 2 then there is no point in waiting for the result of die number 3, because the score will be equal to 0 regardless of the result of the 3rd die .
+<ul>
+  <li>Players will roll 3 dice, numbered 1 to 6, one at a time in any order. </li>
+  <li>A player cannot roll the same die more than once during the game, or the game will end and the player will receive a score of -1. </li>
+  <li>If the result obtained for die number 1 is strictly lower than the result obtained for die number 2 and the result obtained for die number 2 is strictly lower than the result obtained for die number 3, then the player receives a score equal to the sum of the results obtained for the 3 dices.</li>
+  <li>If the result obtained for die number 1 is strictly higher than the result obtained for die number 2 and the result obtained for die number 2 is strictly higher than the result obtained for die number 3 then the player receives a score equal to the product results obtained for the 3 dices Otherwise it receives a zero score .</li>
+  <li>The application must stop the game once we can conclude about the score, for example if we get 5 for die number 1 and 6 for die number 2 then there is no point in waiting for the result of die number 3, because the score will be equal to 0 regardless of the result of the 3rd die .</li>
+ </ul>
 <h1 style="color:blue"> Interface </h1><br>
 <h3> Inscription Form </h3> <br>
 An inscription form is a web-based form that allows users to register for an account on a website or application. The form typically includes fields for the user's name, login, password, and confirm-password. <br>
@@ -31,12 +33,13 @@ The table is organized into columns, with one column for the player's name and o
 <br><img width="917" alt="image" src="https://user-images.githubusercontent.com/108173949/230726076-d430abe5-d533-48b7-9f06-cac11d752677.png">
 <h1>Tools used</h1><br>
 <ul>
-  <li>CIDE:</li>
+  <li>IDE:</li>
     IntelliJ <br> 
    <li>Package:</li>
     jakarta.servlet <br> 
     <li>Server:</li>
     Tomcat 10.1
+  </ul>
 
 
 
