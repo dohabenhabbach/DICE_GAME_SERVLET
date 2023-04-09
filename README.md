@@ -7,17 +7,22 @@
   <li>A player cannot roll the same die more than once during the game, or the game will end and the player will receive a score of -1. </li>
   <li>If the result obtained for die number 1 is strictly lower than the result obtained for die number 2 and the result obtained for die number 2 is strictly lower than the result obtained for die number 3, then the player receives a score equal to the sum of the results obtained for the 3 dices.</li>
   <li>If the result obtained for die number 1 is strictly higher than the result obtained for die number 2 and the result obtained for die number 2 is strictly higher than the result obtained for die number 3 then the player receives a score equal to the product results obtained for the 3 dices Otherwise it receives a zero score .</li>
-  <li>The application must stop the game once we can conclude about the score, for example if we get 5 for die number 1 and 6 for die number 2 then there is no point in waiting for the result of die number 3, because the score will be equal to 0 regardless of the result of the 3rd die .</li>
+  <li>The application must stop the game once we can conclude about the score, for example if we get 5 for die number 1 and 6 for die number 2 then there is no point in waiting for the result of die number 3, because the score will be equal to 0 regardless of the result of the 3rd die. </li>
  </ul>
 <h1 style="color:blue"> Interface </h1><br>
 <h3> Inscription Form </h3> <br>
-An inscription form is a web-based form that allows users to register for an account on a website or application. The form typically includes fields for the user's name, login, password, and confirm-password. <br>
+<ul>
+  <li>An inscription form is a web-based form that allows users to register for an account on a website or application. </li>
+  <li> The form typically includes fields for the user's name, login, password, and confirm-password. </li>
+</ul>
 <br><img width="917" alt="image" src="https://user-images.githubusercontent.com/108173949/230725876-b5cc4e51-2434-4971-ad99-cfc33cd68255.png">
 <h3> Login Form </h3> <br>
-A login form is a web-based form that allows users to access their account on a website or application. The form typically includes fields for the user's login and password.<br>
-The login field requires the user to enter their username or email address that they used during registration to create their account. This field typically includes a validation process to ensure that the entered login credentials are valid.<br>
-The password field requires the user to enter their secure password that they used during registration to create their account. The password field is typically masked to prevent others from seeing the entered text.<br>
-Once the user has completed both fields, they can submit the login form to access their account. The form will then check whether the entered login and password exist or not. If the entered login credentials exist, the user will be redirected to their account dashboard. If the entered login credentials do not exist or are incorrect, the user will receive an error message and be prompted to try again. <br>
+<ul>
+  <li>A login form is a web-based form that allows users to access their account on a website or application. The form typically includes fields for the user's login and password.</li>
+<li>The login field requires the user to enter their username or email address that they used during registration to create their account. </li>
+  <li>This field typically includes a validation process to ensure that the entered login credentials are valid.</li>
+<li>The password field requires the user to enter their secure password that they used during registration to create their account. The password field is typically masked to prevent others from seeing the entered text.</li>
+<li>Once the user has completed both fields, they can submit the login form to access their account. The form will then check whether the entered login and password exist or not. If the entered login credentials exist, the user will be redirected to their account dashboard. If the entered login credentials do not exist or are incorrect, the user will receive an error message and be prompted to try again.</li>
 <br><img width="916" alt="image" src="https://user-images.githubusercontent.com/108173949/230725985-f38e15e3-da0d-4ae9-92be-6848b00103f1.png">
 <h3> Game home </h3> <br>
 The game home interface is a web-based interface that allows players to access a dice game. The interface typically includes options for Deconnexion, Reinitialization, Best Score, and an input for the number of dice to roll.<br>
