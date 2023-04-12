@@ -12,13 +12,13 @@
 <h1 style="color:blue"> Interface </h1><br>
 <h3> Inscription Form </h3> <br>
 <ul>
-  <li>An inscription form is a web-based form that allows users to register for an account on a website or application. </li>
+  <li>The inscription form is a web-based form that allows users to register for an account on a website or application. </li>
   <li> The form typically includes fields for the user's name, login, password, and confirm-password. </li>
 </ul>
 <br><img width="917" alt="image" src="https://user-images.githubusercontent.com/108173949/230725876-b5cc4e51-2434-4971-ad99-cfc33cd68255.png">
 <h3> Login Form </h3> <br>
 <ul>
-  <li>A login form is a web-based form that allows users to access their account on a website or application. The form typically includes fields for the user's login and password.</li>
+  <li>The login form is a web-based form that allows users to access their account on a website or application. The form typically includes fields for the user's login and password.</li>
 <li>The login field requires the user to enter their username or email address that they used during registration to create their account. </li>
   <li>This field typically includes a validation process to ensure that the entered login credentials are valid.</li>
 <li>The password field requires the user to enter their secure password that they used during registration to create their account. The password field is typically masked to prevent others from seeing the entered text.</li>
